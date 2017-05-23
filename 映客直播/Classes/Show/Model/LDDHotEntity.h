@@ -27,12 +27,11 @@
 @property (nonatomic, assign) NSInteger pubStat;
 @property (nonatomic, assign) NSInteger roomId;
 @property (nonatomic, assign) NSInteger rotate;
-@property (nonatomic, strong) NSString * shareAddr;
+@property (nonatomic, strong) NSString *shareAddr;
 @property (nonatomic, assign) NSInteger slot;
 @property (nonatomic, assign) NSInteger status;
-@property (nonatomic, strong) NSString * streamAddr;
+@property (nonatomic, strong) NSString *streamAddr;
 @property (nonatomic, assign) NSInteger version;
-
-@property (nonatomic,strong)NSString *distance;
+@property (nonatomic, strong) NSString *distance;
 
 @end

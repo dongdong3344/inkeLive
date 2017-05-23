@@ -31,20 +31,22 @@
     
     
     if (self = [super initWithFrame:frame]) {
-        //去掉tabBar的分割线
+        //1,去掉tabBar的分割线
        [self setBackgroundImage:[[UIImage alloc]init]];
        [self setShadowImage:[[UIImage alloc]init]];
         
-        //添加背景图
+        //2,添加背景图
        [self addSubview:self.tabBarBgView];
 
-       
+
+        //3,按钮背景图
         UIButton *launchBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        //按钮背景图
         [launchBtn setBackgroundImage:[UIImage imageNamed:@"tab_launch"] forState:UIControlStateNormal];
-        //按钮大小和图片大小一致
+        
+        //4,按钮大小和图片大小一致
         launchBtn.size = launchBtn.currentBackgroundImage.size;
-        //按钮添加点击事件
+        
+        //5,按钮添加点击事件
         [launchBtn addTarget:self action:@selector(launchBtnClick) forControlEvents:UIControlEventTouchUpInside];
         self.launchBtn = launchBtn;
         [self addSubview:self.launchBtn];
@@ -79,7 +81,9 @@
 #pragma mark -中间按钮点击事件
 -(void)launchBtnClick{
     
-    if (self.clickBlock)  self.clickBlock();
+    if (self.centerBtnClickBlock) {
+        self.centerBtnClickBlock();
+    }
 }
 
 #pragma mark -超出父控件点击事件处理

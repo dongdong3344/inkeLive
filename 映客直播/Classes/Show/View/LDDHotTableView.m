@@ -19,6 +19,7 @@ static NSString *const identifier=@"LDDHotCell";
 @implementation LDDHotTableView
 
 
+
 -(instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style{
     
     if (self=[super initWithFrame:frame style:style]) {

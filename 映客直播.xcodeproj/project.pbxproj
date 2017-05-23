@@ -11,12 +11,37 @@
 		C71969BB1E717875001A2371 /* HXWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71969B81E717875001A2371 /* HXWebView.m */; };
 		C71969BC1E717875001A2371 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C71969BA1E717875001A2371 /* NJKWebViewProgress.m */; };
 		C723E4761EB9C3F800D3E494 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C723E4751EB9C3F800D3E494 /* UIImageView+CornerRadius.m */; };
+		C72832B21ED42FF1004CB848 /* LDDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72832B01ED42FF1004CB848 /* LDDLaunchViewController.m */; };
+		C72832B31ED42FF1004CB848 /* LDDLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72832B11ED42FF1004CB848 /* LDDLaunchViewController.xib */; };
+		C72832C21ED43117004CB848 /* LDDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72832C01ED43117004CB848 /* LDDMeViewController.m */; };
+		C72832C31ED43117004CB848 /* LDDMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72832C11ED43117004CB848 /* LDDMeViewController.xib */; };
+		C72833151ED4331B004CB848 /* LDDFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72832FC1ED4331B004CB848 /* LDDFollowViewController.m */; };
+		C72833161ED4331B004CB848 /* LDDGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72832FE1ED4331B004CB848 /* LDDGameViewController.m */; };
+		C72833171ED4331B004CB848 /* LDDHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833001ED4331B004CB848 /* LDDHotViewController.m */; };
+		C72833181ED4331B004CB848 /* LDDLivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833021ED4331B004CB848 /* LDDLivingViewController.m */; };
+		C72833191ED4331B004CB848 /* LDDLivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72833031ED4331B004CB848 /* LDDLivingViewController.xib */; };
+		C728331A1ED4331B004CB848 /* LDDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833051ED4331B004CB848 /* LDDMainViewController.m */; };
+		C728331B1ED4331B004CB848 /* LDDNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833071ED4331B004CB848 /* LDDNearViewController.m */; };
+		C728331C1ED4331B004CB848 /* LDDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833091ED4331B004CB848 /* LDDPlayerViewController.m */; };
+		C728331D1ED4331B004CB848 /* LDDTalentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C728330B1ED4331B004CB848 /* LDDTalentViewController.m */; };
+		C728331E1ED4331B004CB848 /* LDDTalentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C728330C1ED4331B004CB848 /* LDDTalentViewController.xib */; };
+		C728331F1ED4331B004CB848 /* LDDVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C728330E1ED4331B004CB848 /* LDDVideoViewController.m */; };
+		C72833201ED4331B004CB848 /* LDDVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833101ED4331B004CB848 /* LDDVoiceViewController.m */; };
+		C72833211ED4331B004CB848 /* LDDVoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72833111ED4331B004CB848 /* LDDVoiceViewController.xib */; };
+		C72833221ED4331B004CB848 /* LDDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833131ED4331B004CB848 /* LDDWebViewController.m */; };
+		C72833231ED4331B004CB848 /* LDDWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72833141ED4331B004CB848 /* LDDWebViewController.xib */; };
+		C728332D1ED43321004CB848 /* LDDHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833261ED43321004CB848 /* LDDHotCell.m */; };
+		C728332E1ED43321004CB848 /* LDDHotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72833271ED43321004CB848 /* LDDHotCell.xib */; };
+		C728332F1ED43321004CB848 /* LDDHotTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833291ED43321004CB848 /* LDDHotTableView.m */; };
+		C72833301ED43321004CB848 /* LDDNearConllectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C728332B1ED43321004CB848 /* LDDNearConllectionCell.m */; };
+		C72833311ED43321004CB848 /* LDDNearConllectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C728332C1ED43321004CB848 /* LDDNearConllectionCell.xib */; };
+		C72833341ED43373004CB848 /* UIView+HKOpenOrClose.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833331ED43373004CB848 /* UIView+HKOpenOrClose.m */; };
+		C72833381ED433A5004CB848 /* LDDUserCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C72833361ED433A5004CB848 /* LDDUserCollectionCell.m */; };
+		C72833391ED433A5004CB848 /* LDDUserCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72833371ED433A5004CB848 /* LDDUserCollectionCell.xib */; };
 		C72FC2691EA8A53300736C1C /* LDDCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FC2681EA8A53300736C1C /* LDDCreator.m */; };
 		C72FC26C1EA8A56600736C1C /* LDDExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FC26B1EA8A56600736C1C /* LDDExtra.m */; };
 		C72FC26F1EA8A5B300736C1C /* LDDFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FC26E1EA8A5B300736C1C /* LDDFlow.m */; };
 		C72FC2721EA8A5EE00736C1C /* LDDInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FC2711EA8A5EE00736C1C /* LDDInfo.m */; };
-		C72FC2751EA8AE8E00736C1C /* LDDVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FC2741EA8AE8E00736C1C /* LDDVideoViewController.m */; };
-		C72FC2781EA8AF2300736C1C /* LDDGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72FC2771EA8AF2300736C1C /* LDDGameViewController.m */; };
 		C737251D1E29BD7200DD1776 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C737251C1E29BD7200DD1776 /* AudioToolbox.framework */; };
 		C737251F1E29BD7A00DD1776 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C737251E1E29BD7A00DD1776 /* AVFoundation.framework */; };
 		C73725211E29BD8600DD1776 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73725201E29BD8600DD1776 /* CoreGraphics.framework */; };
@@ -35,7 +60,6 @@
 		C7A0A29F1E6CE575000F0033 /* LDDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A0A29D1E6CE575000F0033 /* LDDTableViewCell.xib */; };
 		C7A0A2A31E6D1F79000F0033 /* LDDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A0A2A11E6D1F78000F0033 /* LDDCell.m */; };
 		C7A0A2A41E6D1F79000F0033 /* LDDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A0A2A21E6D1F78000F0033 /* LDDCell.xib */; };
-		C7A0A2AE1E6FD424000F0033 /* LDDWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A0A2AD1E6FD424000F0033 /* LDDWebViewController.xib */; };
 		C7B203AE1E41C6370040F399 /* LDDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203401E41C6370040F399 /* LDDNavigationController.m */; };
 		C7B203AF1E41C6370040F399 /* LDDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203421E41C6370040F399 /* LDDTabBar.m */; };
 		C7B203B01E41C6370040F399 /* LDDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203441E41C6370040F399 /* LDDTabBarController.m */; };
@@ -45,33 +69,9 @@
 		C7B203B51E41C6370040F399 /* LDDLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203521E41C6370040F399 /* LDDLocationManager.m */; };
 		C7B203B71E41C6370040F399 /* LDDRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203561E41C6370040F399 /* LDDRefreshHeader.m */; };
 		C7B203B81E41C6370040F399 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203581E41C6370040F399 /* UIView+Toast.m */; };
-		C7B203B91E41C6370040F399 /* LDDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203611E41C6370040F399 /* LDDLaunchViewController.m */; };
-		C7B203BA1E41C6370040F399 /* LDDLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203621E41C6370040F399 /* LDDLaunchViewController.xib */; };
 		C7B203BB1E41C6370040F399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2036E1E41C6370040F399 /* AppDelegate.m */; };
 		C7B203BF1E41C6370040F399 /* LDDHotEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2037B1E41C6370040F399 /* LDDHotEntity.m */; };
 		C7B203C11E41C6370040F399 /* LDDTopUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2037F1E41C6370040F399 /* LDDTopUser.m */; };
-		C7B203C21E41C6370040F399 /* LDDHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203821E41C6370040F399 /* LDDHotCell.m */; };
-		C7B203C31E41C6370040F399 /* LDDHotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203831E41C6370040F399 /* LDDHotCell.xib */; };
-		C7B203C41E41C6370040F399 /* LDDHotTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203851E41C6370040F399 /* LDDHotTableView.m */; };
-		C7B203C51E41C6370040F399 /* LDDNearConllectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203871E41C6370040F399 /* LDDNearConllectionCell.m */; };
-		C7B203C61E41C6370040F399 /* LDDNearConllectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203881E41C6370040F399 /* LDDNearConllectionCell.xib */; };
-		C7B203C81E41C6370040F399 /* UIView+HKOpenOrClose.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2038C1E41C6370040F399 /* UIView+HKOpenOrClose.m */; };
-		C7B203C91E41C6370040F399 /* LDDLivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2038F1E41C6370040F399 /* LDDLivingViewController.m */; };
-		C7B203CA1E41C6370040F399 /* LDDLivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203901E41C6370040F399 /* LDDLivingViewController.xib */; };
-		C7B203CB1E41C6370040F399 /* LDDFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203921E41C6370040F399 /* LDDFollowViewController.m */; };
-		C7B203CC1E41C6370040F399 /* LDDHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203941E41C6370040F399 /* LDDHotViewController.m */; };
-		C7B203CD1E41C6370040F399 /* LDDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203961E41C6370040F399 /* LDDMainViewController.m */; };
-		C7B203CF1E41C6370040F399 /* LDDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203991E41C6370040F399 /* LDDMeViewController.m */; };
-		C7B203D01E41C6370040F399 /* LDDMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B2039A1E41C6370040F399 /* LDDMeViewController.xib */; };
-		C7B203D11E41C6370040F399 /* LDDNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2039C1E41C6370040F399 /* LDDNearViewController.m */; };
-		C7B203D21E41C6370040F399 /* LDDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2039E1E41C6370040F399 /* LDDPlayerViewController.m */; };
-		C7B203D41E41C6370040F399 /* LDDTalentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203A21E41C6370040F399 /* LDDTalentViewController.m */; };
-		C7B203D51E41C6370040F399 /* LDDTalentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203A31E41C6370040F399 /* LDDTalentViewController.xib */; };
-		C7B203D61E41C6370040F399 /* LDDUserCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203A51E41C6370040F399 /* LDDUserCollectionCell.m */; };
-		C7B203D71E41C6370040F399 /* LDDUserCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203A61E41C6370040F399 /* LDDUserCollectionCell.xib */; };
-		C7B203D81E41C6370040F399 /* LDDVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203A81E41C6370040F399 /* LDDVoiceViewController.m */; };
-		C7B203D91E41C6370040F399 /* LDDVoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B203A91E41C6370040F399 /* LDDVoiceViewController.xib */; };
-		C7B203DA1E41C6370040F399 /* LDDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B203AB1E41C6370040F399 /* LDDWebViewController.m */; };
 		C7B203DF1E41CC1C0040F399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B203DE1E41CC1C0040F399 /* Main.storyboard */; };
 		C7BF01271DD2E66B0016528E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BF01261DD2E66B0016528E /* main.m */; };
 		C7BF01321DD2E66B0016528E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BF01311DD2E66B0016528E /* Assets.xcassets */; };
@@ -90,6 +90,51 @@
 		C723E4741EB9C3F800D3E494 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		C723E4751EB9C3F800D3E494 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		C726EA7F1E7806ED005312EB /* Candara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Candara.ttf; path = ../Candara.ttf; sourceTree = "<group>"; };
+		C72832AF1ED42FF1004CB848 /* LDDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDLaunchViewController.h; sourceTree = "<group>"; };
+		C72832B01ED42FF1004CB848 /* LDDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDLaunchViewController.m; sourceTree = "<group>"; };
+		C72832B11ED42FF1004CB848 /* LDDLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDLaunchViewController.xib; sourceTree = "<group>"; };
+		C72832BF1ED43117004CB848 /* LDDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDMeViewController.h; sourceTree = "<group>"; };
+		C72832C01ED43117004CB848 /* LDDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDMeViewController.m; sourceTree = "<group>"; };
+		C72832C11ED43117004CB848 /* LDDMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDMeViewController.xib; sourceTree = "<group>"; };
+		C72832FB1ED4331B004CB848 /* LDDFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDFollowViewController.h; sourceTree = "<group>"; };
+		C72832FC1ED4331B004CB848 /* LDDFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDFollowViewController.m; sourceTree = "<group>"; };
+		C72832FD1ED4331B004CB848 /* LDDGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDGameViewController.h; sourceTree = "<group>"; };
+		C72832FE1ED4331B004CB848 /* LDDGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDGameViewController.m; sourceTree = "<group>"; };
+		C72832FF1ED4331B004CB848 /* LDDHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHotViewController.h; sourceTree = "<group>"; };
+		C72833001ED4331B004CB848 /* LDDHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotViewController.m; sourceTree = "<group>"; };
+		C72833011ED4331B004CB848 /* LDDLivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDLivingViewController.h; sourceTree = "<group>"; };
+		C72833021ED4331B004CB848 /* LDDLivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDLivingViewController.m; sourceTree = "<group>"; };
+		C72833031ED4331B004CB848 /* LDDLivingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDLivingViewController.xib; sourceTree = "<group>"; };
+		C72833041ED4331B004CB848 /* LDDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDMainViewController.h; sourceTree = "<group>"; };
+		C72833051ED4331B004CB848 /* LDDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDMainViewController.m; sourceTree = "<group>"; };
+		C72833061ED4331B004CB848 /* LDDNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDNearViewController.h; sourceTree = "<group>"; };
+		C72833071ED4331B004CB848 /* LDDNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDNearViewController.m; sourceTree = "<group>"; };
+		C72833081ED4331B004CB848 /* LDDPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDPlayerViewController.h; sourceTree = "<group>"; };
+		C72833091ED4331B004CB848 /* LDDPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDPlayerViewController.m; sourceTree = "<group>"; };
+		C728330A1ED4331B004CB848 /* LDDTalentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDTalentViewController.h; sourceTree = "<group>"; };
+		C728330B1ED4331B004CB848 /* LDDTalentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDTalentViewController.m; sourceTree = "<group>"; };
+		C728330C1ED4331B004CB848 /* LDDTalentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDTalentViewController.xib; sourceTree = "<group>"; };
+		C728330D1ED4331B004CB848 /* LDDVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDVideoViewController.h; sourceTree = "<group>"; };
+		C728330E1ED4331B004CB848 /* LDDVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDVideoViewController.m; sourceTree = "<group>"; };
+		C728330F1ED4331B004CB848 /* LDDVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDVoiceViewController.h; sourceTree = "<group>"; };
+		C72833101ED4331B004CB848 /* LDDVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDVoiceViewController.m; sourceTree = "<group>"; };
+		C72833111ED4331B004CB848 /* LDDVoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDVoiceViewController.xib; sourceTree = "<group>"; };
+		C72833121ED4331B004CB848 /* LDDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDWebViewController.h; sourceTree = "<group>"; };
+		C72833131ED4331B004CB848 /* LDDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDWebViewController.m; sourceTree = "<group>"; };
+		C72833141ED4331B004CB848 /* LDDWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDWebViewController.xib; sourceTree = "<group>"; };
+		C72833251ED43321004CB848 /* LDDHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHotCell.h; sourceTree = "<group>"; };
+		C72833261ED43321004CB848 /* LDDHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotCell.m; sourceTree = "<group>"; };
+		C72833271ED43321004CB848 /* LDDHotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDHotCell.xib; sourceTree = "<group>"; };
+		C72833281ED43321004CB848 /* LDDHotTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHotTableView.h; sourceTree = "<group>"; };
+		C72833291ED43321004CB848 /* LDDHotTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotTableView.m; sourceTree = "<group>"; };
+		C728332A1ED43321004CB848 /* LDDNearConllectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDNearConllectionCell.h; sourceTree = "<group>"; };
+		C728332B1ED43321004CB848 /* LDDNearConllectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDNearConllectionCell.m; sourceTree = "<group>"; };
+		C728332C1ED43321004CB848 /* LDDNearConllectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDNearConllectionCell.xib; sourceTree = "<group>"; };
+		C72833321ED43373004CB848 /* UIView+HKOpenOrClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKOpenOrClose.h"; sourceTree = "<group>"; };
+		C72833331ED43373004CB848 /* UIView+HKOpenOrClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HKOpenOrClose.m"; sourceTree = "<group>"; };
+		C72833351ED433A5004CB848 /* LDDUserCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDUserCollectionCell.h; sourceTree = "<group>"; };
+		C72833361ED433A5004CB848 /* LDDUserCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDUserCollectionCell.m; sourceTree = "<group>"; };
+		C72833371ED433A5004CB848 /* LDDUserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDUserCollectionCell.xib; sourceTree = "<group>"; };
 		C72FC2671EA8A53300736C1C /* LDDCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDCreator.h; sourceTree = "<group>"; };
 		C72FC2681EA8A53300736C1C /* LDDCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDCreator.m; sourceTree = "<group>"; };
 		C72FC26A1EA8A56600736C1C /* LDDExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDExtra.h; sourceTree = "<group>"; };
@@ -98,10 +143,6 @@
 		C72FC26E1EA8A5B300736C1C /* LDDFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDFlow.m; sourceTree = "<group>"; };
 		C72FC2701EA8A5EE00736C1C /* LDDInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDInfo.h; sourceTree = "<group>"; };
 		C72FC2711EA8A5EE00736C1C /* LDDInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDInfo.m; sourceTree = "<group>"; };
-		C72FC2731EA8AE8E00736C1C /* LDDVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDVideoViewController.h; sourceTree = "<group>"; };
-		C72FC2741EA8AE8E00736C1C /* LDDVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDVideoViewController.m; sourceTree = "<group>"; };
-		C72FC2761EA8AF2300736C1C /* LDDGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDGameViewController.h; sourceTree = "<group>"; };
-		C72FC2771EA8AF2300736C1C /* LDDGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDGameViewController.m; sourceTree = "<group>"; };
 		C737251C1E29BD7200DD1776 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C737251E1E29BD7A00DD1776 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C73725201E29BD8600DD1776 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,7 +164,6 @@
 		C7A0A2A01E6D1F78000F0033 /* LDDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDCell.h; sourceTree = "<group>"; };
 		C7A0A2A11E6D1F78000F0033 /* LDDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDCell.m; sourceTree = "<group>"; };
 		C7A0A2A21E6D1F78000F0033 /* LDDCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDCell.xib; sourceTree = "<group>"; };
-		C7A0A2AD1E6FD424000F0033 /* LDDWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDWebViewController.xib; sourceTree = "<group>"; };
 		C7B2033F1E41C6370040F399 /* LDDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDNavigationController.h; sourceTree = "<group>"; };
 		C7B203401E41C6370040F399 /* LDDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDNavigationController.m; sourceTree = "<group>"; };
 		C7B203411E41C6370040F399 /* LDDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDTabBar.h; sourceTree = "<group>"; };
@@ -143,9 +183,6 @@
 		C7B203561E41C6370040F399 /* LDDRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDRefreshHeader.m; sourceTree = "<group>"; };
 		C7B203571E41C6370040F399 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "../Tools/UIView+Toast.h"; sourceTree = "<group>"; };
 		C7B203581E41C6370040F399 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "../Tools/UIView+Toast.m"; sourceTree = "<group>"; };
-		C7B203601E41C6370040F399 /* LDDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDLaunchViewController.h; sourceTree = "<group>"; };
-		C7B203611E41C6370040F399 /* LDDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDLaunchViewController.m; sourceTree = "<group>"; };
-		C7B203621E41C6370040F399 /* LDDLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDLaunchViewController.xib; sourceTree = "<group>"; };
 		C7B2036D1E41C6370040F399 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7B2036E1E41C6370040F399 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7B2036F1E41C6370040F399 /* inke.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inke.pch; sourceTree = "<group>"; };
@@ -154,43 +191,6 @@
 		C7B2037B1E41C6370040F399 /* LDDHotEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotEntity.m; sourceTree = "<group>"; };
 		C7B2037E1E41C6370040F399 /* LDDTopUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDTopUser.h; sourceTree = "<group>"; };
 		C7B2037F1E41C6370040F399 /* LDDTopUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDTopUser.m; sourceTree = "<group>"; };
-		C7B203811E41C6370040F399 /* LDDHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHotCell.h; sourceTree = "<group>"; };
-		C7B203821E41C6370040F399 /* LDDHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotCell.m; sourceTree = "<group>"; };
-		C7B203831E41C6370040F399 /* LDDHotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDHotCell.xib; sourceTree = "<group>"; };
-		C7B203841E41C6370040F399 /* LDDHotTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHotTableView.h; sourceTree = "<group>"; };
-		C7B203851E41C6370040F399 /* LDDHotTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotTableView.m; sourceTree = "<group>"; };
-		C7B203861E41C6370040F399 /* LDDNearConllectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDNearConllectionCell.h; sourceTree = "<group>"; };
-		C7B203871E41C6370040F399 /* LDDNearConllectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDNearConllectionCell.m; sourceTree = "<group>"; };
-		C7B203881E41C6370040F399 /* LDDNearConllectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDNearConllectionCell.xib; sourceTree = "<group>"; };
-		C7B2038B1E41C6370040F399 /* UIView+HKOpenOrClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HKOpenOrClose.h"; path = "../../Show/View/UIView+HKOpenOrClose.h"; sourceTree = "<group>"; };
-		C7B2038C1E41C6370040F399 /* UIView+HKOpenOrClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+HKOpenOrClose.m"; path = "../../Show/View/UIView+HKOpenOrClose.m"; sourceTree = "<group>"; };
-		C7B2038E1E41C6370040F399 /* LDDLivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDLivingViewController.h; sourceTree = "<group>"; };
-		C7B2038F1E41C6370040F399 /* LDDLivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDLivingViewController.m; sourceTree = "<group>"; };
-		C7B203901E41C6370040F399 /* LDDLivingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDLivingViewController.xib; sourceTree = "<group>"; };
-		C7B203911E41C6370040F399 /* LDDFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDFollowViewController.h; sourceTree = "<group>"; };
-		C7B203921E41C6370040F399 /* LDDFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDFollowViewController.m; sourceTree = "<group>"; };
-		C7B203931E41C6370040F399 /* LDDHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHotViewController.h; sourceTree = "<group>"; };
-		C7B203941E41C6370040F399 /* LDDHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHotViewController.m; sourceTree = "<group>"; };
-		C7B203951E41C6370040F399 /* LDDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDMainViewController.h; sourceTree = "<group>"; };
-		C7B203961E41C6370040F399 /* LDDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDMainViewController.m; sourceTree = "<group>"; };
-		C7B203981E41C6370040F399 /* LDDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDDMeViewController.h; path = ../../Show/ViewController/LDDMeViewController.h; sourceTree = "<group>"; };
-		C7B203991E41C6370040F399 /* LDDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDDMeViewController.m; path = ../../Show/ViewController/LDDMeViewController.m; sourceTree = "<group>"; };
-		C7B2039A1E41C6370040F399 /* LDDMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LDDMeViewController.xib; path = ../../Show/ViewController/LDDMeViewController.xib; sourceTree = "<group>"; };
-		C7B2039B1E41C6370040F399 /* LDDNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDNearViewController.h; sourceTree = "<group>"; };
-		C7B2039C1E41C6370040F399 /* LDDNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDNearViewController.m; sourceTree = "<group>"; };
-		C7B2039D1E41C6370040F399 /* LDDPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDPlayerViewController.h; sourceTree = "<group>"; };
-		C7B2039E1E41C6370040F399 /* LDDPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDPlayerViewController.m; sourceTree = "<group>"; };
-		C7B203A11E41C6370040F399 /* LDDTalentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDTalentViewController.h; sourceTree = "<group>"; };
-		C7B203A21E41C6370040F399 /* LDDTalentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDTalentViewController.m; sourceTree = "<group>"; };
-		C7B203A31E41C6370040F399 /* LDDTalentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDTalentViewController.xib; sourceTree = "<group>"; };
-		C7B203A41E41C6370040F399 /* LDDUserCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDDUserCollectionCell.h; path = "映客直播/Classes/Show/ViewController/LDDUserCollectionCell.h"; sourceTree = SOURCE_ROOT; };
-		C7B203A51E41C6370040F399 /* LDDUserCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDDUserCollectionCell.m; path = "映客直播/Classes/Show/ViewController/LDDUserCollectionCell.m"; sourceTree = SOURCE_ROOT; };
-		C7B203A61E41C6370040F399 /* LDDUserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LDDUserCollectionCell.xib; path = "映客直播/Classes/Show/ViewController/LDDUserCollectionCell.xib"; sourceTree = SOURCE_ROOT; };
-		C7B203A71E41C6370040F399 /* LDDVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDVoiceViewController.h; sourceTree = "<group>"; };
-		C7B203A81E41C6370040F399 /* LDDVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDVoiceViewController.m; sourceTree = "<group>"; };
-		C7B203A91E41C6370040F399 /* LDDVoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDVoiceViewController.xib; sourceTree = "<group>"; };
-		C7B203AA1E41C6370040F399 /* LDDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDWebViewController.h; sourceTree = "<group>"; };
-		C7B203AB1E41C6370040F399 /* LDDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDWebViewController.m; sourceTree = "<group>"; };
 		C7B203DE1E41CC1C0040F399 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Classes/Other/Main.storyboard; sourceTree = "<group>"; };
 		C7BF01221DD2E66B0016528E /* 映客直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "映客直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BF01261DD2E66B0016528E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -277,6 +277,77 @@
 			name = Toast;
 			sourceTree = "<group>";
 		};
+		C72832AE1ED42FF1004CB848 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				C72832AF1ED42FF1004CB848 /* LDDLaunchViewController.h */,
+				C72832B01ED42FF1004CB848 /* LDDLaunchViewController.m */,
+				C72832B11ED42FF1004CB848 /* LDDLaunchViewController.xib */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		C72832BE1ED43117004CB848 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C72832BF1ED43117004CB848 /* LDDMeViewController.h */,
+				C72832C01ED43117004CB848 /* LDDMeViewController.m */,
+				C72832C11ED43117004CB848 /* LDDMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C72832FA1ED4331B004CB848 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C72832FB1ED4331B004CB848 /* LDDFollowViewController.h */,
+				C72832FC1ED4331B004CB848 /* LDDFollowViewController.m */,
+				C72832FD1ED4331B004CB848 /* LDDGameViewController.h */,
+				C72832FE1ED4331B004CB848 /* LDDGameViewController.m */,
+				C72832FF1ED4331B004CB848 /* LDDHotViewController.h */,
+				C72833001ED4331B004CB848 /* LDDHotViewController.m */,
+				C72833011ED4331B004CB848 /* LDDLivingViewController.h */,
+				C72833021ED4331B004CB848 /* LDDLivingViewController.m */,
+				C72833031ED4331B004CB848 /* LDDLivingViewController.xib */,
+				C72833041ED4331B004CB848 /* LDDMainViewController.h */,
+				C72833051ED4331B004CB848 /* LDDMainViewController.m */,
+				C72833061ED4331B004CB848 /* LDDNearViewController.h */,
+				C72833071ED4331B004CB848 /* LDDNearViewController.m */,
+				C72833081ED4331B004CB848 /* LDDPlayerViewController.h */,
+				C72833091ED4331B004CB848 /* LDDPlayerViewController.m */,
+				C728330A1ED4331B004CB848 /* LDDTalentViewController.h */,
+				C728330B1ED4331B004CB848 /* LDDTalentViewController.m */,
+				C728330C1ED4331B004CB848 /* LDDTalentViewController.xib */,
+				C728330D1ED4331B004CB848 /* LDDVideoViewController.h */,
+				C728330E1ED4331B004CB848 /* LDDVideoViewController.m */,
+				C728330F1ED4331B004CB848 /* LDDVoiceViewController.h */,
+				C72833101ED4331B004CB848 /* LDDVoiceViewController.m */,
+				C72833111ED4331B004CB848 /* LDDVoiceViewController.xib */,
+				C72833121ED4331B004CB848 /* LDDWebViewController.h */,
+				C72833131ED4331B004CB848 /* LDDWebViewController.m */,
+				C72833141ED4331B004CB848 /* LDDWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C72833241ED43321004CB848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C72833251ED43321004CB848 /* LDDHotCell.h */,
+				C72833261ED43321004CB848 /* LDDHotCell.m */,
+				C72833271ED43321004CB848 /* LDDHotCell.xib */,
+				C72833281ED43321004CB848 /* LDDHotTableView.h */,
+				C72833291ED43321004CB848 /* LDDHotTableView.m */,
+				C728332A1ED43321004CB848 /* LDDNearConllectionCell.h */,
+				C728332B1ED43321004CB848 /* LDDNearConllectionCell.m */,
+				C728332C1ED43321004CB848 /* LDDNearConllectionCell.xib */,
+				C72833351ED433A5004CB848 /* LDDUserCollectionCell.h */,
+				C72833361ED433A5004CB848 /* LDDUserCollectionCell.m */,
+				C72833371ED433A5004CB848 /* LDDUserCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C7B2033D1E41C6370040F399 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,10 +393,10 @@
 			children = (
 				C723E4771EB9C40100D3E494 /* Toast */,
 				C723E4731EB9C3F800D3E494 /* CornerRadiusCategory */,
-				C7B2038B1E41C6370040F399 /* UIView+HKOpenOrClose.h */,
-				C7B2038C1E41C6370040F399 /* UIView+HKOpenOrClose.m */,
 				C7B203471E41C6370040F399 /* UIView+LDViewExtension.h */,
 				C7B203481E41C6370040F399 /* UIView+LDViewExtension.m */,
+				C72833321ED43373004CB848 /* UIView+HKOpenOrClose.h */,
+				C72833331ED43373004CB848 /* UIView+HKOpenOrClose.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -394,60 +465,18 @@
 		C7B2035E1E41C6370040F399 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				C7B2035F1E41C6370040F399 /* Handler */,
-				C7B203601E41C6370040F399 /* LDDLaunchViewController.h */,
-				C7B203611E41C6370040F399 /* LDDLaunchViewController.m */,
-				C7B203621E41C6370040F399 /* LDDLaunchViewController.xib */,
-				C7B203641E41C6370040F399 /* View */,
-				C7B203651E41C6370040F399 /* ViewController */,
+				C72832AE1ED42FF1004CB848 /* viewController */,
 			);
 			path = Live;
-			sourceTree = "<group>";
-		};
-		C7B2035F1E41C6370040F399 /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Handler;
-			sourceTree = "<group>";
-		};
-		C7B203631E41C6370040F399 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = ../../Live/Model;
-			sourceTree = "<group>";
-		};
-		C7B203641E41C6370040F399 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C7B203651E41C6370040F399 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C7B203661E41C6370040F399 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				C7B203681E41C6370040F399 /* Model */,
+				C72832BE1ED43117004CB848 /* Controller */,
 				C7B203691E41C6370040F399 /* View */,
-				C7B2036A1E41C6370040F399 /* ViewController */,
 			);
 			path = Me;
-			sourceTree = "<group>";
-		};
-		C7B203681E41C6370040F399 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C7B203691E41C6370040F399 /* View */ = {
@@ -461,17 +490,6 @@
 				C7A0A2A21E6D1F78000F0033 /* LDDCell.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C7B2036A1E41C6370040F399 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C7B203981E41C6370040F399 /* LDDMeViewController.h */,
-				C7B203991E41C6370040F399 /* LDDMeViewController.m */,
-				C7B2039A1E41C6370040F399 /* LDDMeViewController.xib */,
-				C7B203631E41C6370040F399 /* Model */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C7B2036B1E41C6370040F399 /* Network */ = {
@@ -499,9 +517,9 @@
 		C7B203731E41C6370040F399 /* Show */ = {
 			isa = PBXGroup;
 			children = (
+				C72833241ED43321004CB848 /* View */,
+				C72832FA1ED4331B004CB848 /* Controller */,
 				C7B203751E41C6370040F399 /* Model */,
-				C7B203801E41C6370040F399 /* View */,
-				C7B2038D1E41C6370040F399 /* ViewController */,
 			);
 			path = Show;
 			sourceTree = "<group>";
@@ -523,57 +541,6 @@
 				C7B2037F1E41C6370040F399 /* LDDTopUser.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C7B203801E41C6370040F399 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C7B203811E41C6370040F399 /* LDDHotCell.h */,
-				C7B203821E41C6370040F399 /* LDDHotCell.m */,
-				C7B203831E41C6370040F399 /* LDDHotCell.xib */,
-				C7B203841E41C6370040F399 /* LDDHotTableView.h */,
-				C7B203851E41C6370040F399 /* LDDHotTableView.m */,
-				C7B203861E41C6370040F399 /* LDDNearConllectionCell.h */,
-				C7B203871E41C6370040F399 /* LDDNearConllectionCell.m */,
-				C7B203881E41C6370040F399 /* LDDNearConllectionCell.xib */,
-				C7B203A41E41C6370040F399 /* LDDUserCollectionCell.h */,
-				C7B203A51E41C6370040F399 /* LDDUserCollectionCell.m */,
-				C7B203A61E41C6370040F399 /* LDDUserCollectionCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C7B2038D1E41C6370040F399 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C7B203951E41C6370040F399 /* LDDMainViewController.h */,
-				C7B203961E41C6370040F399 /* LDDMainViewController.m */,
-				C7B203911E41C6370040F399 /* LDDFollowViewController.h */,
-				C7B203921E41C6370040F399 /* LDDFollowViewController.m */,
-				C7B203931E41C6370040F399 /* LDDHotViewController.h */,
-				C7B203941E41C6370040F399 /* LDDHotViewController.m */,
-				C7B2039B1E41C6370040F399 /* LDDNearViewController.h */,
-				C7B2039C1E41C6370040F399 /* LDDNearViewController.m */,
-				C7B2039D1E41C6370040F399 /* LDDPlayerViewController.h */,
-				C7B2039E1E41C6370040F399 /* LDDPlayerViewController.m */,
-				C72FC2761EA8AF2300736C1C /* LDDGameViewController.h */,
-				C72FC2771EA8AF2300736C1C /* LDDGameViewController.m */,
-				C7B203A11E41C6370040F399 /* LDDTalentViewController.h */,
-				C7B203A21E41C6370040F399 /* LDDTalentViewController.m */,
-				C7B203A31E41C6370040F399 /* LDDTalentViewController.xib */,
-				C72FC2731EA8AE8E00736C1C /* LDDVideoViewController.h */,
-				C72FC2741EA8AE8E00736C1C /* LDDVideoViewController.m */,
-				C7B203A71E41C6370040F399 /* LDDVoiceViewController.h */,
-				C7B203A81E41C6370040F399 /* LDDVoiceViewController.m */,
-				C7B203A91E41C6370040F399 /* LDDVoiceViewController.xib */,
-				C7B2038E1E41C6370040F399 /* LDDLivingViewController.h */,
-				C7B2038F1E41C6370040F399 /* LDDLivingViewController.m */,
-				C7B203901E41C6370040F399 /* LDDLivingViewController.xib */,
-				C7B203AA1E41C6370040F399 /* LDDWebViewController.h */,
-				C7B203AB1E41C6370040F399 /* LDDWebViewController.m */,
-				C7A0A2AD1E6FD424000F0033 /* LDDWebViewController.xib */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C7BF01191DD2E66B0016528E = {
@@ -683,19 +650,19 @@
 			files = (
 				C7A0A2A41E6D1F79000F0033 /* LDDCell.xib in Resources */,
 				C7BF01351DD2E66B0016528E /* LaunchScreen.storyboard in Resources */,
-				C7A0A2AE1E6FD424000F0033 /* LDDWebViewController.xib in Resources */,
+				C72832C31ED43117004CB848 /* LDDMeViewController.xib in Resources */,
 				C7A0A29F1E6CE575000F0033 /* LDDTableViewCell.xib in Resources */,
-				C7B203C61E41C6370040F399 /* LDDNearConllectionCell.xib in Resources */,
-				C7B203D01E41C6370040F399 /* LDDMeViewController.xib in Resources */,
 				C7451A431EA9E99A004A9E26 /* inke.gif in Resources */,
-				C7B203D91E41C6370040F399 /* LDDVoiceViewController.xib in Resources */,
+				C728331E1ED4331B004CB848 /* LDDTalentViewController.xib in Resources */,
+				C72833211ED4331B004CB848 /* LDDVoiceViewController.xib in Resources */,
+				C72832B31ED42FF1004CB848 /* LDDLaunchViewController.xib in Resources */,
 				C7BF01321DD2E66B0016528E /* Assets.xcassets in Resources */,
-				C7B203D71E41C6370040F399 /* LDDUserCollectionCell.xib in Resources */,
+				C72833391ED433A5004CB848 /* LDDUserCollectionCell.xib in Resources */,
+				C72833311ED43321004CB848 /* LDDNearConllectionCell.xib in Resources */,
+				C72833191ED4331B004CB848 /* LDDLivingViewController.xib in Resources */,
+				C72833231ED4331B004CB848 /* LDDWebViewController.xib in Resources */,
 				C7B203DF1E41CC1C0040F399 /* Main.storyboard in Resources */,
-				C7B203BA1E41C6370040F399 /* LDDLaunchViewController.xib in Resources */,
-				C7B203CA1E41C6370040F399 /* LDDLivingViewController.xib in Resources */,
-				C7B203C31E41C6370040F399 /* LDDHotCell.xib in Resources */,
-				C7B203D51E41C6370040F399 /* LDDTalentViewController.xib in Resources */,
+				C728332E1ED43321004CB848 /* LDDHotCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,47 +721,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72833171ED4331B004CB848 /* LDDHotViewController.m in Sources */,
 				C71969BC1E717875001A2371 /* NJKWebViewProgress.m in Sources */,
 				C7B203B71E41C6370040F399 /* LDDRefreshHeader.m in Sources */,
+				C728331A1ED4331B004CB848 /* LDDMainViewController.m in Sources */,
 				C7B203B11E41C6370040F399 /* UIView+LDViewExtension.m in Sources */,
-				C7B203C21E41C6370040F399 /* LDDHotCell.m in Sources */,
 				C72FC2721EA8A5EE00736C1C /* LDDInfo.m in Sources */,
 				C72FC26C1EA8A56600736C1C /* LDDExtra.m in Sources */,
-				C7B203C51E41C6370040F399 /* LDDNearConllectionCell.m in Sources */,
-				C7B203C81E41C6370040F399 /* UIView+HKOpenOrClose.m in Sources */,
+				C72833301ED43321004CB848 /* LDDNearConllectionCell.m in Sources */,
+				C728331F1ED4331B004CB848 /* LDDVideoViewController.m in Sources */,
 				C7B203AE1E41C6370040F399 /* LDDNavigationController.m in Sources */,
 				C7A0A2A31E6D1F79000F0033 /* LDDCell.m in Sources */,
-				C7B203CD1E41C6370040F399 /* LDDMainViewController.m in Sources */,
 				C72FC26F1EA8A5B300736C1C /* LDDFlow.m in Sources */,
+				C728331B1ED4331B004CB848 /* LDDNearViewController.m in Sources */,
+				C728332F1ED43321004CB848 /* LDDHotTableView.m in Sources */,
 				C723E4761EB9C3F800D3E494 /* UIImageView+CornerRadius.m in Sources */,
 				C7B203B01E41C6370040F399 /* LDDTabBarController.m in Sources */,
-				C72FC2751EA8AE8E00736C1C /* LDDVideoViewController.m in Sources */,
-				C7B203CB1E41C6370040F399 /* LDDFollowViewController.m in Sources */,
+				C72833151ED4331B004CB848 /* LDDFollowViewController.m in Sources */,
+				C72833201ED4331B004CB848 /* LDDVoiceViewController.m in Sources */,
 				C72FC2691EA8A53300736C1C /* LDDCreator.m in Sources */,
-				C7B203CF1E41C6370040F399 /* LDDMeViewController.m in Sources */,
 				C7B203C11E41C6370040F399 /* LDDTopUser.m in Sources */,
-				C7B203D21E41C6370040F399 /* LDDPlayerViewController.m in Sources */,
+				C728331D1ED4331B004CB848 /* LDDTalentViewController.m in Sources */,
+				C728331C1ED4331B004CB848 /* LDDPlayerViewController.m in Sources */,
 				C7B203B21E41C6370040F399 /* LDDNetworkTool.m in Sources */,
 				C7B203B81E41C6370040F399 /* UIView+Toast.m in Sources */,
-				C7B203C91E41C6370040F399 /* LDDLivingViewController.m in Sources */,
-				C7B203DA1E41C6370040F399 /* LDDWebViewController.m in Sources */,
-				C7B203B91E41C6370040F399 /* LDDLaunchViewController.m in Sources */,
+				C72832B21ED42FF1004CB848 /* LDDLaunchViewController.m in Sources */,
+				C72833341ED43373004CB848 /* UIView+HKOpenOrClose.m in Sources */,
+				C72833221ED4331B004CB848 /* LDDWebViewController.m in Sources */,
+				C72832C21ED43117004CB848 /* LDDMeViewController.m in Sources */,
+				C728332D1ED43321004CB848 /* LDDHotCell.m in Sources */,
 				C7B203B41E41C6370040F399 /* LDDBaseViewController.m in Sources */,
-				C7B203D11E41C6370040F399 /* LDDNearViewController.m in Sources */,
 				C7B203B51E41C6370040F399 /* LDDLocationManager.m in Sources */,
 				C71969BB1E717875001A2371 /* HXWebView.m in Sources */,
-				C7B203D61E41C6370040F399 /* LDDUserCollectionCell.m in Sources */,
 				C7A0A29E1E6CE575000F0033 /* LDDTableViewCell.m in Sources */,
 				C78AD9331E6546450006424C /* Reachability.m in Sources */,
-				C7B203D81E41C6370040F399 /* LDDVoiceViewController.m in Sources */,
+				C72833381ED433A5004CB848 /* LDDUserCollectionCell.m in Sources */,
+				C72833161ED4331B004CB848 /* LDDGameViewController.m in Sources */,
 				C7B203AF1E41C6370040F399 /* LDDTabBar.m in Sources */,
-				C7B203CC1E41C6370040F399 /* LDDHotViewController.m in Sources */,
+				C72833181ED4331B004CB848 /* LDDLivingViewController.m in Sources */,
 				C7BF01271DD2E66B0016528E /* main.m in Sources */,
-				C7B203C41E41C6370040F399 /* LDDHotTableView.m in Sources */,
 				C7B203BB1E41C6370040F399 /* AppDelegate.m in Sources */,
-				C7B203D41E41C6370040F399 /* LDDTalentViewController.m in Sources */,
 				C7B203BF1E41C6370040F399 /* LDDHotEntity.m in Sources */,
-				C72FC2781EA8AF2300736C1C /* LDDGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

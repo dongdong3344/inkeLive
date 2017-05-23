@@ -25,8 +25,8 @@
         LDDLaunchViewController *launchVC=[[LDDLaunchViewController alloc]init];
         launchVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;//模态视图方式
         __weak typeof(self) weakSelf=self;
-        //block
-        _inkeTabBar.clickBlock=^(){
+    
+        _inkeTabBar.centerBtnClickBlock=^(){
             
             [weakSelf presentViewController:launchVC animated:YES completion:nil];
 
@@ -44,9 +44,8 @@
     [self setupTabBar];//设置tabBar
     
 }
-/**
- 创建tabBar控制器
- */
+#pragma mark-设置tabBar
+
 -(void)setupTabBar{
     
     //KVC实质是修改了系统的_tabBar
@@ -74,18 +73,14 @@
     
 }
 
-/**
- 点击tabbar上按钮事件
- */
+//点击tabBar按钮点击事件
 -(void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
     
     NSInteger index = [self.tabBar.items indexOfObject:item];
     [self animationWithIndex:index];
 }
 
-/**
- 点击tabBar item动画
- */
+//点击tabBar item动画
 - (void)animationWithIndex:(NSInteger) index {
     NSMutableArray *tabBarBtnArr = [NSMutableArray array];
     for (UIView *tabBarBtn in self.tabBar.subviews) {

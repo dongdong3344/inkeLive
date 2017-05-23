@@ -10,9 +10,9 @@
 
 
 //定义block
-typedef void(^LDDTabBarBlock)();
+typedef void(^LDDTabBarCenterBtnClickBlock)();
 
 @interface LDDTabBar:UITabBar
 
-@property(nonatomic,copy)LDDTabBarBlock clickBlock;
+@property(nonatomic,copy)LDDTabBarCenterBtnClickBlock centerBtnClickBlock;
 @end
