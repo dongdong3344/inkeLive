@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -30,20 +30,18 @@
                             <rect key="frame" x="250" y="50" width="75" height="75"/>
                             <state key="normal" image="shortvideo_main_video"/>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-TB-zXs">
-                            <rect key="frame" x="68" y="127" width="50" height="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-TB-zXs">
+                            <rect key="frame" x="50" y="127" width="75" height="20"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="50" id="DNQ-Uf-KPS"/>
                                 <constraint firstAttribute="height" constant="20" id="olA-33-gom"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="短视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a1-tk-xXc">
-                            <rect key="frame" x="260" y="127" width="65" height="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a1-tk-xXc">
+                            <rect key="frame" x="250" y="127" width="75" height="20"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="65" id="7eI-nj-gAq"/>
                                 <constraint firstAttribute="height" constant="20" id="Ll5-Xi-8zf"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -64,18 +62,20 @@
                     </subviews>
                     <color key="backgroundColor" red="0.94888555041305866" green="0.95828045685279184" blue="0.95828045685279184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstItem="M9d-TB-zXs" firstAttribute="leading" secondItem="NLI-J8-R2s" secondAttribute="leading" constant="68" id="4NH-cl-soo"/>
                         <constraint firstItem="Dag-NW-vAX" firstAttribute="leading" secondItem="NLI-J8-R2s" secondAttribute="leading" id="5eW-96-vkf"/>
                         <constraint firstAttribute="trailing" secondItem="jpq-KV-s95" secondAttribute="trailing" constant="50" id="9MI-xi-ovF"/>
+                        <constraint firstItem="M9d-TB-zXs" firstAttribute="trailing" secondItem="GE8-qc-RAy" secondAttribute="trailing" id="GJR-Vi-6Gu"/>
                         <constraint firstAttribute="height" constant="250" id="OK9-lS-Bu7"/>
+                        <constraint firstItem="3a1-tk-xXc" firstAttribute="leading" secondItem="jpq-KV-s95" secondAttribute="leading" id="OTv-mC-ngu"/>
                         <constraint firstAttribute="bottom" secondItem="Dag-NW-vAX" secondAttribute="bottom" id="Ph8-bZ-2m8"/>
                         <constraint firstItem="3a1-tk-xXc" firstAttribute="top" secondItem="jpq-KV-s95" secondAttribute="bottom" constant="2" id="REz-37-vHL"/>
                         <constraint firstItem="M9d-TB-zXs" firstAttribute="top" secondItem="GE8-qc-RAy" secondAttribute="bottom" constant="2" id="TKO-Wm-tY0"/>
                         <constraint firstAttribute="trailing" secondItem="Dag-NW-vAX" secondAttribute="trailing" id="ZLB-qn-G0H"/>
                         <constraint firstItem="GE8-qc-RAy" firstAttribute="leading" secondItem="NLI-J8-R2s" secondAttribute="leading" constant="50" id="bfX-hr-6bh"/>
                         <constraint firstItem="jpq-KV-s95" firstAttribute="top" secondItem="NLI-J8-R2s" secondAttribute="top" constant="50" id="eHe-4I-a9R"/>
+                        <constraint firstItem="M9d-TB-zXs" firstAttribute="leading" secondItem="GE8-qc-RAy" secondAttribute="leading" id="kWU-eu-RwF"/>
                         <constraint firstItem="GE8-qc-RAy" firstAttribute="top" secondItem="NLI-J8-R2s" secondAttribute="top" constant="50" id="umN-oN-V8t"/>
-                        <constraint firstAttribute="trailing" secondItem="3a1-tk-xXc" secondAttribute="trailing" constant="50" id="zCm-18-J8p"/>
+                        <constraint firstItem="3a1-tk-xXc" firstAttribute="trailing" secondItem="jpq-KV-s95" secondAttribute="trailing" id="v0G-vd-CAU"/>
                     </constraints>
                 </view>
             </subviews>

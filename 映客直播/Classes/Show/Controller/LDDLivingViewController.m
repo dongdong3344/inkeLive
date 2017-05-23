@@ -14,11 +14,11 @@ static NSString *identifier=@"LDDUserCollectionCell";
 @interface LDDLivingViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UIImageView *closeImgView;//关闭按钮
 @property (weak, nonatomic) IBOutlet UIImageView *iconImg;//头像
-@property (weak, nonatomic) IBOutlet UILabel *onLineCount;//观看人数
+@property (weak, nonatomic) IBOutlet UILabel *onLineLabel;//观看人数
 @property (weak, nonatomic) IBOutlet UIImageView *bgImgView;//背景图片
-@property (weak, nonatomic) IBOutlet UICollectionView *peopleCollectionView;
-@property (weak, nonatomic) IBOutlet UILabel *yingkeIDLable;//ID标签
-@property (strong,nonatomic)NSMutableArray *topUsersArray;//人员数组
+@property (weak, nonatomic) IBOutlet UICollectionView *topUserCollectionView;//topUser
+@property (weak, nonatomic) IBOutlet UILabel *userIDLabel;//ID
+@property (strong,nonatomic) NSMutableArray *topUsersArray;//人员数组
 
 @end
 
@@ -36,6 +36,7 @@ static NSString *identifier=@"LDDUserCollectionCell";
 }
 
 -(void)setupClose{
+    
     self.closeImgView.userInteractionEnabled = YES;
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(closeClick)];
     [self.closeImgView addGestureRecognizer:gesture];
@@ -48,15 +49,15 @@ static NSString *identifier=@"LDDUserCollectionCell";
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
     layout.itemSize=CGSizeMake(35, 35);
     // 设置最小行间距
-    layout.minimumLineSpacing =(SCREEN_WIDTH-30-self.bgImgView.width-35*6)/6;
+    layout.minimumLineSpacing =10;
 
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    self.peopleCollectionView.collectionViewLayout=layout;
+    self.topUserCollectionView.collectionViewLayout=layout;
     // 通过xib注册
-    [self.peopleCollectionView registerClass:[LDDUserCollectionCell class] forCellWithReuseIdentifier:identifier];
-    self.peopleCollectionView.showsHorizontalScrollIndicator = NO;
-    self.peopleCollectionView.bounces = NO;
-    self.peopleCollectionView.backgroundColor=[UIColor clearColor];
+    [self.topUserCollectionView registerClass:[LDDUserCollectionCell class] forCellWithReuseIdentifier:identifier];
+    self.topUserCollectionView.showsHorizontalScrollIndicator = NO;
+    self.topUserCollectionView.bounces = NO;
+    self.topUserCollectionView.backgroundColor=[UIColor clearColor];
     
 }
 
@@ -73,7 +74,7 @@ static NSString *identifier=@"LDDUserCollectionCell";
       
    self.topUsersArray = [LDDTopUser mj_objectArrayWithKeyValuesArray:responseObject[@"users"]];
 
-    [self.peopleCollectionView reloadData];
+    [self.topUserCollectionView reloadData];
   } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
       
       LDDLog(@"error:%@",error);
@@ -84,8 +85,8 @@ static NSString *identifier=@"LDDUserCollectionCell";
 }
 -(void)setHotEntity:(LDDHotEntity *)hotEntity{
     _hotEntity=hotEntity;
-    self.onLineCount.text=[NSString stringWithFormat:@"%ld",(long)hotEntity.onlineUsers];
-    self.yingkeIDLable.text=[NSString stringWithFormat:@"映客号:%lu",_hotEntity.creator.ID];
+    self.onLineLabel.text=[NSString stringWithFormat:@"%ld",(long)hotEntity.onlineUsers];
+    self.userIDLabel.text=[NSString stringWithFormat:@"映客号:%lu",_hotEntity.creator.ID];
     
     NSString *imageStr;
     if (![hotEntity.creator.portrait hasPrefix:@"http"]) {

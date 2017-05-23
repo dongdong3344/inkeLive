@@ -23,10 +23,11 @@
     self.iconImg.layer.rasterizationScale=[UIScreen mainScreen].scale;
 }
 
-//加载xib,不要忘记
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+        //加载xib,不要忘记
         self = [[NSBundle mainBundle]loadNibNamed:@"LDDUserCollectionCell" owner:self options:nil].lastObject;
     }
     
